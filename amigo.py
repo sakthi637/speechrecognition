@@ -46,7 +46,7 @@ if __name__ == '__main__':
             speak("According to wikipedia")
             speak(results)
         elif 'are you' in query:
-            speak("I am amigo developed by Jaspreet Singh")
+            speak("I am amigo developed by Sakthish")
         elif 'open youtube' in query:
             speak("opening youtube")
             webbrowser.open("youtube.com")
@@ -64,7 +64,7 @@ if __name__ == '__main__':
             webbrowser.open("spotify.com")
         elif 'open whatsapp' in query:
             speak("opening whatsapp")
-            loc = "C:\\Users\\jaspr\\AppData\\Local\\WhatsApp\\WhatsApp.exe"
+            loc = "C:\\Users\\jaspr\\AppData\\Local\\WhatsApp\\WhatsApp.ex"
             os.startfile(loc)
         elif 'play music' in query:
             speak("opening music")
